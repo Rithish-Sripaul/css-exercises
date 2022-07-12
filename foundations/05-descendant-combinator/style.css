@@ -1,0 +1,26 @@
+/* Using only class selectors */
+/* .container .text { 
+  font-size: 20px;
+  text-align: center;
+
+  background-color: rgb(256, 256, 0);
+  color: rgb(256, 0, 0);
+} */
+
+/* Using only type selectors */
+/* div p {
+  font-size: 20px;
+  text-align: center;
+
+  background-color: rgb(256, 256, 0);
+  color: rgb(256, 0, 0);
+} */
+
+/* Using both type and class selectors */
+div .text {
+  font-size: 20px;
+  text-align: center;
+
+  background-color: rgb(256, 256, 0);
+  color: rgb(256, 0, 0);
+}
